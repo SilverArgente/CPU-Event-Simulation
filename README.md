@@ -19,7 +19,7 @@ Once downloaded, navigate to the ``src`` directory and compile the simulation us
     
     $ gcc simulation.c
 
-Finally, you can test the simulation with any one of the jobs in the ``jobs`` directory using the following command (you may use ``testjobs2.csv`` or replace the entire argument with another csv file):
+Finally, you can test the simulation with any one of the jobs in the ``jobs`` directory using the following command (you may use ``testjobs2.csv`` or replace the entire argument with another csv file of your choice):
 
-    $ ./a.out ../testjobs1.csv
+    $ ./a.out ../jobs/testjobs1.csv
 
