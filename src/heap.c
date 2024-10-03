@@ -1,14 +1,10 @@
 /*
- * Min Heap Priority Queue
- * By Amogh Dalal
- * Created for CS435 HW1
  * 7/10/24
 */
 
 #include <stdlib.h>
 
 struct Task {
-    /* This user-defined structure is complete */
     int id;
     int priority;
     int arrivalTime;
@@ -21,7 +17,6 @@ struct Node {
 };
 
 struct PQ {
-    /* Add attributes to this user-defined structure */
     struct Node *heap;
     int size;
     int max_size;

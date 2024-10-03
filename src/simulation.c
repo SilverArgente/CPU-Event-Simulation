@@ -1,8 +1,5 @@
-/* 
- * Discrete Time CPU Event Simulation
- * By Amogh Dalal
- * Created for CS435 HW1
- * 7/10/24
+/*
+* 7/10/24
 */
 
 #include <stdio.h>
